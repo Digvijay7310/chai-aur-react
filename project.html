@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Changer through buttons</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .colorbtn {
+        padding: 2px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container"
+      style="
+        background-color: aliceblue;
+        padding: 10px 20px;
+        border-radius: 10px;
+      "
+    >
+      <buttons
+        class="red"
+        style="background-color: red; padding: 5px 10px; border-radius: 5px"
+        >Red</buttons
+      >
+      <buttons
+        class="blue colorbtn"
+        style="background-color: blue; padding: 5px 10px; border-radius: 5px"
+        >Blue</buttons
+      >
+      <buttons
+        class="yellow colorbtn"
+        style="background-color: yellow; padding: 5px 10px; border-radius: 5px"
+        >Yellow</buttons
+      >
+      <buttons
+        class="green colorbtn"
+        style="background-color: green; padding: 5px 10px; border-radius: 5px"
+        >Green</buttons
+      >
+      <buttons
+        class="violet colorbtn"
+        style="background-color: violet; padding: 5px 10px; border-radius: 5px"
+        >Violet</buttons
+      >
+      <buttons
+        class="aqua colorbtn"
+        style="background-color: aqua; padding: 5px 10px; border-radius: 5px"
+        >Blue</buttons
+      >
+      <buttons
+        class="skyblue colorbtn"
+        style="background-color: skyblue; padding: 5px 10px; border-radius: 5px"
+        >Sky</buttons
+      >
+    </div>
+  </body>
+  <script>
+    let red = document.querySelector(".red").addEventListener("click", () => {
+      document.body.style.backgroundColor = "red";
+    });
+    let blue = document.querySelector(".blue").addEventListener("click", () => {
+      document.body.style.backgroundColor = "blue";
+    });
+    let yellow = document
+      .querySelector(".yellow")
+      .addEventListener("click", () => {
+        document.body.style.backgroundColor = "yellow";
+      });
+    let green = document
+      .querySelector(".green")
+      .addEventListener("click", () => {
+        document.body.style.backgroundColor = "green";
+      });
+    let violet = document
+      .querySelector(".violet")
+      .addEventListener("click", () => {
+        document.body.style.backgroundColor = "violet";
+      });
+    let aqua = document.querySelector(".aqua").addEventListener("click", () => {
+      document.body.style.backgroundColor = "aqua";
+    });
+    let skyblue = document
+      .querySelector(".skyblue")
+      .addEventListener("click", () => {
+        document.body.style.backgroundColor = "skyblue";
+      });
+  </script>
+</html>

@@ -27,7 +27,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
+        backgroundImage: `url('https://tse2.mm.bing.net/th?id=OIP.LOS5OloUlfWWW_9RBdejjAHaE8&pid=Api&P=0&h=220')`,
       }}
     >
       <div className="w-full">

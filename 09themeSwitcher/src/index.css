@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* index.css or App.css */
+html {
+  --bg-color: #ffffff;
+  --text-color: #333;
+}
+
+html.dark {
+  --bg-color: #333;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* You can extend this with other Tailwind styles for background, text colors, etc. */

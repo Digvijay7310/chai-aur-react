@@ -6,7 +6,6 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <UserContextProvider>
-      <h1>React with chai and share is important</h1>
       <Login />
       <Profile />
     </UserContextProvider>

@@ -6,16 +6,31 @@ function App() {
 
   //let counter = 15
 
+  // const addValue = () => {
+  // counter = counter + 1
+  //   if (counter < 5) {
+  //     setCounter(counter + 1);
+  //   }
+  // };
+  // const removeValue = () => {
+  //   if (counter > 0) {
+  //     setCounter(counter - 1);
+  //   }
+  // };
+
+  // If interviewer said the change the the single variable on single click 4 times
+
   const addValue = () => {
-    // counter = counter + 1
-    if (counter < 5) {
-      setCounter(counter + 1);
-    }
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
   };
   const removeValue = () => {
-    if (counter > 0) {
-      setCounter(counter - 1);
-    }
+    setCounter((counter) => counter - 1);
+    setCounter((counter) => counter - 0.4);
+    setCounter((counter) => counter - 0.2);
+    setCounter((counter) => counter - 0.5);
   };
 
   return (

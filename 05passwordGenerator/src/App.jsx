@@ -72,6 +72,7 @@ function App() {
             <input
               type="checkbox"
               defaultChecked={numberAllowed}
+              name="numberInput"
               id="numberInput"
               className="cursor-pointer"
               onChange={() => {
@@ -84,7 +85,8 @@ function App() {
             <input
               type="checkbox"
               defaultChecked={numberAllowed}
-              id="charInout"
+              name="charInput"
+              id="charInput"
               className="cursor-pointer"
               onChange={() => {
                 setcharAllowed((prev) => !prev);

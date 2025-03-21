@@ -30,6 +30,8 @@ function App() {
     );
   };
 
+  // From here we start local storage in context.
+  // JSON.parse give us fulljs because localstorage all items has string
   useEffect(() => {
     const todos = JSON.parse(localStorage.getItem("todos"));
 

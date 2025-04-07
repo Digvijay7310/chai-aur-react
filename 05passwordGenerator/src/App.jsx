@@ -1,9 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
-import Hello from "./Hello";
 
 function App() {
-  <Hello />;
   const [length, setLength] = useState(8);
   const [numberAllowed, setnumberAllowed] = useState(false);
   const [charAllowed, setcharAllowed] = useState(false);
